@@ -10,4 +10,4 @@ jobs:
       - image: circleci/ruby:2.4.2-browsers
     steps:
       - checkout
-      - run: echo "hello world"
+      - run: cat test.txt
